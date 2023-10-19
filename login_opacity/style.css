@@ -12,15 +12,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: seagreen;
+    background: url('./background_img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .wrapper {
     min-width: 35%;
-    background-color: blueviolet;
     color: #ffff;
     padding: 50px;
     border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper h1 {
@@ -95,8 +101,9 @@ body {
 }
 
 .registerLink {
+    font-size: 1em;
     text-align: center;
-    margin: 20px 0;
+    margin-top: 35px;
 }
 
 .registerLink a {
