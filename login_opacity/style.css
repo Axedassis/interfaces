@@ -22,6 +22,7 @@ body {
     min-width: 35%;
     color: #ffff;
     padding: 50px;
+    margin: 0 25px;
     border-radius: 10px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
@@ -67,6 +68,7 @@ body {
 
 .rememberme-forgot {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     font-size: 14.5px;
     margin: -15px 0 15px;
@@ -114,4 +116,11 @@ body {
 
 .registerLink a:hover {
     text-decoration: underline;
+}
+
+.made {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.2);
 }
